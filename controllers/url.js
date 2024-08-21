@@ -1,8 +1,7 @@
 import { nanoid } from "nanoid";
 import URL from "../models/url.js";
 
-
-generateNewShortURL = async (req, res) => {
+const generateNewShortURL = async (req, res) => {
 
     const body = req.body;
     if (!body) {

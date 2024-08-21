@@ -12,6 +12,7 @@ app.use(express.json());
 app.use('/url', router);
 
 app.listen(PORT, () => {
+    connectToMongoDB();
     console.log(`Server started at https://localhost:${PORT}`);
 });
 
