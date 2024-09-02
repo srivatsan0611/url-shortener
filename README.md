@@ -1,5 +1,5 @@
 # URL Shortener
-A backend service that does URL Shortening. Welcome to this URL Shortener project that was done to hone some of my Backend Skills in Node.JS and Express.JS! This backend API Service is responsible for handling API requests, URL shortening logic and database interactions
+Welcome to this URL Shortener project that was done to hone some of my Backend Skills in Node.JS and Express.JS! This backend API Service is responsible for handling API requests, URL shortening logic and database interactions
 
 ## Features
 - URL Shortening: Convert long URLs into shorter, easy-to-share links.
