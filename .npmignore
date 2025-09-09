@@ -1,0 +1,28 @@
+# Development files
+test-sdk.js
+.env
+.env.example
+
+# Git
+.git/
+.gitignore
+
+# Node
+node_modules/
+npm-debug.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+PROJECT_STRUCTURE.md
+
+# Build artifacts
+*.tgz
+package-lock.json

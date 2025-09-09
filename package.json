@@ -1,21 +1,51 @@
 {
-  "name": "url-shortener",
+  "name": "@srivatsan-dev/url-shortener",
   "version": "1.0.0",
-  "description": "A backend service that does some URL Shortening",
-  "main": "index.js",
+  "description": "Plug-and-play URL shortener SDK for any Node.js application",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./index.js"
+    "start": "node examples/express-basic/server.js",
+    "dev": "nodemon examples/express-basic/server.js",
+    "test": "node test-sdk.js",
+    "prepublishOnly": "npm test"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "url-shortener",
+    "sdk",
+    "express",
+    "mongodb",
+    "analytics",
+    "url",
+    "short-url",
+    "link-shortener"
+  ],
+  "author": "Srivatsan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srivatsan0611/url-shortener"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "package.json"
+  ],
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
   "dependencies": {
+    "mongoose": "^8.5.3",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.5.3",
-    "nanoid": "^5.0.7",
     "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
