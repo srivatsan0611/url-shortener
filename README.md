@@ -2,6 +2,7 @@
 
 A plug-and-play URL shortener SDK for any Node.js application. Get started with just **1 line of code** and **zero database setup**.
 
+Link Cards:
 [![npm version](https://badge.fury.io/js/%40srivatsan-dev%2Furl-shortener.svg)](https://www.npmjs.com/package/@srivatsan-dev/url-shortener)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
